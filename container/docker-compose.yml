@@ -29,7 +29,7 @@ services:
         - NGINX_VERSION=${NGINX_VERSION}
     working_dir: /usr/share/nginx/front
     volumes:
-      - ../frontend:/usr/share/nginx/front
+      - ../front:/usr/share/nginx/front
     restart: unless-stopped
     ports:
       - ${PORT_NGINX}:80
