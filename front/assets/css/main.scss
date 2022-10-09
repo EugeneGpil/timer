@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+html {
+  font-size: 100%;
+  font-family: Inter, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
