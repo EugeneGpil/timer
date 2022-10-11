@@ -17,7 +17,7 @@ services:
     command: tail -F anything
     user: "${ID_USER}:${ID_GROUP}"
     ports:
-      - "24678:24678" # for vite websocket
+      - "9000:9000" # for vite dev websocket
     restart: unless-stopped
     profiles:
       - dev

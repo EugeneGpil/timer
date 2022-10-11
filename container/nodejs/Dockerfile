@@ -32,3 +32,6 @@ RUN echo "\n\
     " >> ~/.bashrc &&\
 		corepack enable &&\
     apt-get install xsel -y
+
+USER app
+RUN	npm install -g @quasar/cli
